@@ -1,0 +1,173 @@
+body {
+	background-color: #ddd;
+}
+
+@media screen and (min-width:1200px) {
+	h1 {
+	font-size: 4.5rem;
+	}
+	h2{
+	font-size:2.0rem;
+	}
+	h3{
+	font-size:1.6rem;
+	}
+	h4{
+	font-size:1.4rem;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1199.9px) {
+	h1 {
+	font-size: 3.8rem;
+	}
+	h2{
+	font-size:1.8rem;
+	}
+	h3{
+	font-size:1.4rem;
+	}
+	h4{
+	font-size:1.3rem;
+	}
+}
+
+@media screen and (max-width:767.9px) {
+	h1 {
+	font-size: 2.8rem;
+	}
+	h2{
+	font-size:1.6rem;
+	}
+	h3{
+	font-size:1.2rem;
+	}
+	h4{
+	font-size:1.2rem;
+	}
+	p {
+	font-size:0.85rem;
+	}
+}
+
+/* header start */
+
+header {
+	height: 40px;
+	line-height: 40px;
+}
+
+.menu {
+	margin-top: 10px;
+}
+
+.navigator {
+	width:320px;
+	height:100%;
+	position: fixed;
+	right:-320px;
+	top:0;
+	z-index: 1500;
+}
+
+.navigator p a {
+	font-size: 1.25rem;
+}
+
+.navigator li {
+	line-height: 3.5rem;
+}
+
+/* banner start */
+
+@media screen and (min-width:1200px){
+	.banner, .banner_page {
+		height:650px;
+	}
+	.banner .overlay {
+		padding: 230px 0;
+	}
+	.banner_page h1 {
+		padding: 280px 0;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1199.9px) {
+	.banner, .banner_page {
+		height:500px;
+	}
+	.banner .overlay  {
+		padding: 180px 0;
+	}
+	.banner_page h1 {
+		padding: 220px 0;
+	}
+}
+
+@media screen and (max-width:767.9px){
+	.banner, .banner_page {
+		height:450px;
+	}
+	.banner .overlay  {
+		padding:130px 0;
+	}
+	.banner_page h1 {
+		padding: 200px 0;
+	}
+}
+
+.banner, .banner_page {
+	/* padding:200px 0; */
+	background: url('images/44.jpg') left top no-repeat;
+	background-size: cover;
+	/* height:650px; */
+}
+
+.banner .overlay, .banner_page .overlay {
+	/* padding:240px 0; */
+	background-color: rgba(90,30,30,0.9);
+	z-index: 1000;
+	width: 100%;
+	height: 650px;
+}
+
+.banner .video {
+	z-index:500;
+	padding-left:40px;
+}
+
+.main, .ceo {
+	background:url('images/aa.jpg') left top no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.main .overlay, .ceo .overlay {
+	background-color: rgba(225,225,225,0.85);
+}
+
+.main i {
+	font-size:3.5rem;
+}
+
+.banner_b {
+	background:url('images/aa.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.banner_b .overlay {
+	background-color: rgba(90,30,30,0.9)
+}
+
+.ceo .content p {
+		border-left: 8px solid #ccc;
+}
+
+.ceo .content div {
+		font-size: 0.9rem;
+}
+
+.map li {
+	line-height: 2.1rem;
+}
